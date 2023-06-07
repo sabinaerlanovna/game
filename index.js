@@ -227,7 +227,7 @@ if (scrollOfset> 2000){
 }
 
 // lose condition
-if (player.position.y > 1000){
+if (player.position.y > canvas.height){
   goBack()
  }
 // console.log('you lose')
