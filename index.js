@@ -220,7 +220,7 @@ platforms.forEach((platform) => {
 
   let win = document.querySelector('#win')
 // win condition
-if (scrollOfset> 2000){
+if (scrollOfset > 2000){
   console.log('you win')
   win.innerHTML = 'YOU WIN !!!'
 }
